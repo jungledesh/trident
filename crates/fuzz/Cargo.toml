@@ -47,7 +47,7 @@ version = "0.10.0"
 
 # Trident-SVM
 [dependencies.trident-svm]
-version = "0.0.3"
+trident-svm = { git = "https://github.com/jungledesh/trident-svm.git", branch = "master" }
 
 [dependencies]
 
