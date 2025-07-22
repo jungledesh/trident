@@ -44,11 +44,6 @@ version = "0.10.0"
 path = "../config"
 version = "0.10.0"
 
-
-# Trident-SVM
-[dependencies.trident-svm]
-trident-svm = { git = "https://github.com/jungledesh/trident-svm.git", branch = "master" }
-
 [dependencies]
 
 # Solana
@@ -64,6 +59,8 @@ honggfuzz = { workspace = true }
 
 # Afl
 afl = { workspace = true }
+
+trident-svm = { git = "https://github.com/jungledesh/trident-svm.git", branch = "master" }
 
 # Arbitrary
 arbitrary = { workspace = true }
